@@ -1,0 +1,62 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Topic of my page.</h1>
+
+            <p>Introducing the topic of my page.</p>
+
+                <section>
+                    <h2> Header 1  </h2>
+
+                    <p>  Paragraph 1  </p>
+
+                    <iframe
+                    src="https://www.youtube.com/embed/PkZNo7MFNFg?si=-UBVIUNM3csdeiWF"
+                    title="Learn JavaScript" 
+                    height="300"
+                    width="350"> </iframe>
+                
+                </section>
+
+                <section>   
+                    <h2> Header 2  </h2>
+
+                    <p>  Paragraph 2  </p>
+
+                    <iframe
+                    src="https://www.youtube.com/embed/PkZNo7MFNFg?si=-UBVIUNM3csdeiWF"
+                    title="Learn JavaScript" 
+                    height="300"
+                    width="350">  </iframe>
+
+                </section>
+
+                <section>   
+                    <h2> Header 3  </h2>
+
+                    <p>  Paragraph 3  </p>
+
+                    <iframe
+                    src="https://www.youtube.com/embed/PkZNo7MFNFg?si=-UBVIUNM3csdeiWF"
+                    title="Learn JavaScript" 
+                    height="300"
+                    width="350">  </iframe>
+
+                </section>
+
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
