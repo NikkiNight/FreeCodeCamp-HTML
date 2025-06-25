@@ -1,1 +1,1 @@
-Collection of FreeCodingCamp.org projects I've completed.
+Collection of FreeCodingCamp.org HTML projects I've completed.
