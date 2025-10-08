@@ -1,0 +1,78 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Example survey form</p>
+  </head>
+
+  <body>
+    <form id="survey-form" method="POST" action="URL HERE">
+
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name" id="name-label">Name:</label>
+        <input id="name" type="text" placeholder="ex: John Doe" required/>
+        
+        <label for="email" id="email-label">Email:</label>
+        <input id="email" type="email" placeholder="email@example.com" required/>
+
+        <label for="number" id="number-label">Number:</label>
+        <input id="number" type="number" min="1" max="100" placeholder="ex: 3" required/>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dropdown-box</legend>
+
+        <label for="dropdown-box">Yes or No?</label>
+
+        <select id="dropdown" name="dropdown-box">
+          <option id="yes">Yes</option>
+          <option id="no">No</option>
+        </select>
+
+        </fieldset> 
+
+        <fieldset>
+          <legend>Radio-Buttons</legend>
+
+          <label id="selection-a" name="selection-a">Selection A</label>
+          <input type="radio" name="radio-buttons" id="radio-button-a" value="selection-a">
+
+          <label id="selection-b" name="selection-b">Selection B</label>
+          <input type="radio" name="radio-buttons" id="radio-button-b" value="selection-b">
+
+          <label id="selection-c" name="selection-c">Selection C</label>
+          <input type="radio" name="radio-buttons" id="radio-button-c" value="selection-c">
+
+        </fieldset>  
+
+        <fieldset>
+          <legend>Checkbox</legend>
+
+          <label for="checkbox">Checked checkbox</label>
+          <input type="checkbox" id="checkbox" name="checkbox" value="checked" checked/>
+
+          <label for="checkbox">Un-checked checkbox</label>
+          <input type="checkbox" id="checkbox" name="checkbox" value="unchecked"/>
+        </fieldset>
+
+        <fieldset>
+          <legend>Text box</legend>
+          <textarea>
+
+          </textarea>
+        </fieldset>
+     
+      <button type="submit" id="submit">Submit</button>
+      
+             
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
